@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body{
+background-image: url("../images/dark-grey-terrazzo/dark-grey-terrazzo.png");
+
+
+
+}
+
+#head{
+  
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+ 
+  border-bottom: 2px solid #ccc;
+}
+#logo {
+    float: left;
+    width: 500px;
+    height: 70px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  nav{
+      float: right;
+      background-color:#4aaaa5;
+      font: bolder;
+      font-size: 20px;
+      height: 50px;
+      text-align: center;
+      margin-top: 10px;
+      padding: 15px;
+      
+  }
+
+  #everything{
+      max-width: 960px;
+      margin: 0 auto;
+  }
+ 
+     
+    
+   
+     
+  
+  .smallerRaul{
+      width: 300px;
+      height:300px;
+      margin-top: 20px;
+      float: left;
+      margin:10px;
+     
+  }
+
+  p, h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+  } 
+  
+      
+    
+     
+  
+
+  footer{
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+  }
