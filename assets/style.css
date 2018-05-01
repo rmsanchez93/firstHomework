@@ -16,9 +16,9 @@ background-image: url("../images/dark-grey-terrazzo/dark-grey-terrazzo.png");
  
   border-bottom: 2px solid #ccc;
 }
-#logo {
+#logo, .title{
     float: left;
-    width: 500px;
+    width: 300px;
     height: 70px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -38,10 +38,24 @@ background-image: url("../images/dark-grey-terrazzo/dark-grey-terrazzo.png");
       text-align: center;
       margin-top: 10px;
       padding: 15px;
-      
-  }
+}
 
-  #everything{
+.title{
+    color: #fff;
+    background: none;
+    font-size: 30px;
+}
+#TitlePage{
+    height: 70px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    
+
+}
+
+
+
+  #everything, .portfolio{
       max-width: 960px;
       margin: 0 auto;
   }
@@ -64,10 +78,14 @@ background-image: url("../images/dark-grey-terrazzo/dark-grey-terrazzo.png");
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: aliceblue;
+    text-align: center;
   } 
   
-      
-    
+  .portfolio  {
+      width: 600px;
+  }
+   
+ 
      
   
 
@@ -80,4 +98,34 @@ background-image: url("../images/dark-grey-terrazzo/dark-grey-terrazzo.png");
     text-align: center;
     background: #666;
     border-top: 8px solid #4aaaa5;
+  }
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    
+    padding: 15px;
+  }
+  
+  
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
   }
