@@ -40,6 +40,17 @@ background-image: url("../images/dark-grey-terrazzo/dark-grey-terrazzo.png");
       padding: 15px;
 }
 
+.container{
+    
+    width: 960px;
+    align: center;
+    
+}
+
+.contact{
+    width:20px;
+    align-content: center;
+}
 .title{
     color: #fff;
     background: none;
@@ -52,7 +63,6 @@ background-image: url("../images/dark-grey-terrazzo/dark-grey-terrazzo.png");
     
 
 }
-
 
 
   #everything, .portfolio{
